@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Contact Details</h1>
+    </header>
+
+    <p>Name: Francis Chioma</p>
+    <p>Email: ichiomafrancis@gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/francis-i-chioma-137214b6/"
+        >LinkedIn</a
+      >
+    </p>
+
+    <fieldset>
+      <legend>User personal information</legend>
+      <form action="ichiomafrancis@gmail.com">
+        <div>
+          <label for="name">Enter your full name</label><br />
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div>
+          <label for="email">Enter your email</label><br />
+          <input type="email" name="email" id="email" />
+        </div>
+        <br />
+
+        <div>
+          <label for="gender">Enter your gender</label><br />
+          <input
+            type="radio"
+            name="gender"
+            id="gender"
+            value="Male"
+          />Male<br />
+          <input
+            type="radio"
+            name="gender"
+            id="gender"
+            value="Female"
+          />Female<br />
+          <input type="radio" name="gender" id="gender" value="others" />others
+        </div>
+
+        <div>
+          <label for="hobby">Hobby:</label><br />
+          <input
+            type="checkbox"
+            name="hobby"
+            id="hobby"
+            value="Cricket"
+          />Cricket <br />
+          <input
+            type="checkbox"
+            name="hobby"
+            id="hobby"
+            value="Football"
+          />Football
+          <br />
+          <input type="checkbox" name="hobby" id="hobby" value="Hockey" />Hockey
+        </div>
+
+        <div>
+          <label for="comment">Type your comment</label><br />
+          <textarea name="comment" id="comment" row="3" column="10"></textarea>
+        </div>
+
+        <button>Submit</button>
+      </form>
+    </fieldset>
+  </body>
+</html>
